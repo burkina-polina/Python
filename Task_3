@@ -1,0 +1,16 @@
+N = int(input('Введите кол-во монеток: '))
+a1 = 1
+a2 = 0
+count_a1 = 0
+count_a2 = 0
+i = 0
+for i in range(N):
+    x = int(input('Введите сторону монетки: '))
+    if x == a1:
+        count_a1 += 1
+    else:
+        count_a2 +=1
+if count_a1 < count_a2:
+    print(count_a1)
+else:
+    print(count_a2)

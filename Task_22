@@ -1,0 +1,10 @@
+# n = 11
+# m = 6
+# list_1 = [input('Введите число ') for _ in range(n)]
+# list_1 = set(list_1)
+# print(list_1)
+# list_2 = [input('Введите число ') for _ in range(m)]
+# list_2 = set(list_2)
+# print(list_2)
+# result = list_1.intersection(list_2)
+# print(result)
